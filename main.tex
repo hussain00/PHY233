@@ -1,0 +1,78 @@
+\documentclass[a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, left=2cm, right=2cm, top=2cm,
+bottom=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{tabto}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{xparse}
+\usepackage{lastpage}
+\usepackage[
+  final,
+  unicode,
+  pdfauthor={Sakil}
+  pdftitle={PHY233 Assignment by Group 1},
+]{hyperref}
+\fancyhf{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{PHY233}
+\fancyhead[C]{}
+\fancyhead[R]{Assignment}
+\fancyfoot[R]{\thepage\ of \pageref*{LastPage}}
+\renewcommand{\headrulewidth}{2pt} 
+\renewcommand{\footrulewidth}{2pt}
+
+\begin{document}
+\begin{titlepage}
+\scshape
+
+\centering
+\includegraphics[width=4cm, keepaspectratio]{logo.png} \par \vspace{0.1cm}
+\text{\Large{SHAHJALAL UNIVERSITY OF SCIENCE AND TECHNOLOGY}}
+\vspace{1cm}
+
+
+\raisebox{-\baselineskip}{\rule{\textwidth}{1px}}
+\rule{\textwidth}{1px}
+\vspace{0.2cm}
+
+{\large{{Mathematical Physics}}}\par \vspace{0.1cm}
+Assignment on Dirac Delta $\delta$
+
+\rule{\textwidth}{2px}
+
+\vspace{3cm}
+
+\begin{tabularx}{\textwidth}{l X}
+Submitted to: & \large Shahadat Hossain\\
+ & Assistant Professor\\
+ & \text{Department of Physics, SUST}\\
+\end{tabularx}
+
+
+\vspace{2cm}
+
+\begin{tabularx}{\textwidth}{X r}
+Submitted by:\\
+\large{Kazi Mahmudur Rahman} & Registration Number: 2019132065\\
+\large{Md Rabby Hasan} & Registration Number: 2019132079\\
+\large{Muhammed Sakil Hussain} & Registration Number: 2019132094\\
+\large{Syful Islam Nirob} & Registration Number: 2019132099\\
+\large{Md Sumon Ahmed} & Registration Number: 2019132106\\
+
+
+\end{tabularx}
+
+\vspace{4cm}
+\today
+
+\end{titlepage}
+
+\input{Assignment/Assignment.tex}
+
+\end{document}
